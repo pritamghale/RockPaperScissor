@@ -2,3 +2,46 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.gameBoard {
+    height: 900px;
+    width: 700px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gameName {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.scoreboard {
+    text-align: right;
+    padding: 20px;
+}
+
+.computerChoiceUI {
+    width: 525px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.humanChoiceUI {
+    width: 525px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+#playerId {
+    text-align: center;
+}
+
+.humanChoice {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}

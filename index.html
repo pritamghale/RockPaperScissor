@@ -4,14 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="/script.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="#" />
     <title>Rock Paper Scissor</title>
-
 </head>
 
 <body>
+    <h2 class="gameName">Rock Paper Scissor</h2>
+    <div class="gameBoard">
+        <div class="scoreboard">
+            <p>Computer: | Human: </p>
+        </div>
+        <h4 id="playerId">Computer Choice</h4>
+        <div class="computerChoiceUI">
 
+        </div>
+        <h4 id="playerId">human Choice</h4>
+        <div class="humanChoiceUI">
+
+        </div>
+    </div>
+    <div class="humanChoice">
+        <button><img id="rock" src="./img/rock.png" alt="rock" width="50"></button>
+        <button><img id="paper" src="./img/paper.png" alt="paper" width="50"></button>
+        <button><img id="scissor" src="./img/scissors.png" alt="scissor" width="50"></button>
+    </div>
+    <script src="/script.js" defer></script>
 </body>
 
 </html>
