@@ -22,17 +22,17 @@ function getComputerChoice() {
     let computerChoose = document.querySelector(".computerChoiceUI")
     switch (ui) {
         case 'rock':
-            x.setAttribute('src', 'img/rock.png')
+            x.setAttribute('src', './img/rock.png')
             computerChoose.innerHTML = "";
             computerChoose.appendChild(x)
             return 'rock'
         case 'paper':
-            x.setAttribute('src', 'img/paper.png')
+            x.setAttribute('src', './img/paper.png')
             computerChoose.innerHTML = "";
             computerChoose.appendChild(x)
             return 'paper'
         case 'scissor':
-            x.setAttribute('src', 'img/scissors.png')
+            x.setAttribute('src', './img/scissors.png')
             computerChoose.innerHTML = "";
             computerChoose.appendChild(x)
             return 'scissor'
@@ -47,13 +47,13 @@ function getHumanChoice() {
         let choice = target.id
         switch (target.id) {
             case 'rock':
-                z.setAttribute('src', 'img/rock.png')
+                z.setAttribute('src', './img/rock.png')
                 break
             case 'paper':
-                z.setAttribute('src', 'img/paper.png')
+                z.setAttribute('src', './img/paper.png')
                 break
             case 'scissor':
-                z.setAttribute('src', 'img/scissors.png')
+                z.setAttribute('src', './img/scissors.png')
                 break
 
         }
